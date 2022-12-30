@@ -1,0 +1,26 @@
+@font-face {
+    font-family: outfit-thin;
+    src: url(fonts/Outfit-VariableFont_wght.ttf);
+}
+
+* {
+    width: 1440;
+    background-color:hsl(212, 45%, 89%);
+}
+
+.container {
+    background-color: white;
+    margin: 25px;
+    width: 350px;
+    height: 200px;
+}
+
+#bold {
+    font-family: outfit-thin;
+    color: hsl(218, 44%, 22%);
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+    font-family: outfit-thin;
+}
