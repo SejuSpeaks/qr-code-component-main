@@ -3,24 +3,43 @@
     src: url(fonts/Outfit-VariableFont_wght.ttf);
 }
 
-* {
+body {
     width: 1440;
-    background-color:hsl(212, 45%, 89%);
+    background-color: hsl(212, 45%, 89%);
 }
 
 .container {
-    background-color: white;
-    margin: 25px;
-    width: 350px;
-    height: 200px;
+    display: flex;
+    justify-content: center;
 }
 
-#bold {
+.white-box {
+    border-radius: 10px;
+    display: block;
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+    width: 250px;
+    height: 400px;
+}
+
+.white-box img {
+
+    margin: 20px;
+}
+
+.white-box h2 {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 10px;
     font-family: outfit-thin;
     color: hsl(218, 44%, 22%);
 }
 
-p {
+.white-box p {
+    margin: 10px;
     color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    font-size: 15px;
     font-family: outfit-thin;
 }
